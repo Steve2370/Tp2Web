@@ -19,7 +19,7 @@ class DatabaseService
             self::$connection = pg_connect($connString);
 
             if (!self::$connection) {
-                throw new \Exception("Erreur de connexion à PostgreSQL");
+                throw new \Exception("E rreur de connexion à PostgreSQL");
             }
         }
         return self::$connection;
