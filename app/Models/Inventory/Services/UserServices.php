@@ -18,7 +18,7 @@ class UserServices
 
         $user = pg_fetch_object($result);
 
-        if ($user && password_verify($password, $user->password)) {
+        if ($password == $user->password) {
             return $user;
         }
 
