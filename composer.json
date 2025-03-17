@@ -25,7 +25,8 @@
     "ext-ssh2": "*",
     "ext-gd": "*",
     "ext-libxml": "*",
-    "ext-dom": "*"
+    "ext-dom": "*",
+    "ext-pgsql": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "10.*",
